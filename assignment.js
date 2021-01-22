@@ -1,28 +1,22 @@
-
-
-
-// kilometer to meter
+// kilometer to meter converter
 function kilometerToMeter(meter) {
  
     if(meter<0){
      meter  = "Give a valid number";
      }
- 
      else{
          // 1 kilometer = 1000 meter
-      meter = meter * 1000;
-         
+      meter = meter * 1000;    
      }
      return meter;
      
  }
  
 
-
-
 //  budget calculaor
 
 function budgetClaculator(mobile,laptop,watch){
+
     if(mobile<0|| laptop<0|| watch<0){
         totalPrice="price is not valid";
     }
@@ -45,19 +39,17 @@ function budgetClaculator(mobile,laptop,watch){
          laptopPrice=laptop*500;
         //  1 watch price=50$
          watchPrice= watch*50;
-         totalPrice=laptopPrice+mobilePrice+watchPrice;
-        
-
+         totalPrice=laptopPrice+mobilePrice+watchPrice;              
     }
     return totalPrice;
 }
 
 
 
-
 // hotel days cost
 
 function hotelCost(days){
+
     if (days<0){
         var cost= "Days can't be nagative";   
     }
@@ -72,11 +64,9 @@ function hotelCost(days){
         var remain=days-10;
         // cost of each next 11-20 days is 80.
         var nextTenDays= remain*80;
-        cost = nextTenDays+firstTenDays;
-        
+        cost = nextTenDays+firstTenDays;    
     }
     
-
     else{
         var firstTenDays=10*100;
         var nextTenDays=10*80;
@@ -87,7 +77,6 @@ function hotelCost(days){
     }
     
     return cost;
-
 }
 
 
@@ -103,7 +92,6 @@ function megaFriends(){
         if(element.length>largestName.length){
             largestName=element;
         }
-
     }
     return largestName;
 }
