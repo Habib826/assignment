@@ -1,3 +1,7 @@
+// https://github.com/Habib826/assignment
+
+
+
 // kilometer to meter converter
 function kilometerToMeter(meter) {
  
@@ -11,7 +15,6 @@ function kilometerToMeter(meter) {
      return meter;
      
  }
- 
 
 //  budget calculaor
 
@@ -82,10 +85,11 @@ function hotelCost(days){
 
 
 
+
 //  find the largest name
 
 var friendsName = ["habib", "kim", "jimjimjim","jimjimjimn", "java", "kamal", "mohammod", "summmon", "abul"];
-function megaFriends(){
+function megaFriend(){
     var largestName= friendsName[0];
     for(var i=0; i < friendsName.length; i++ ){
         var element=friendsName[i];
