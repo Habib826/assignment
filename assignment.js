@@ -28,14 +28,14 @@ function budgetClaculator(mobile,laptop,watch){
     }
 
     else if(mobile>0 && laptop==0 && watch==0){
-        // 1 mobile=100$
+        // 1 mobile price=100$
          mobilePrice= mobile*100;
          totalPrice=mobilePrice;
         }
 
     else if(mobile>0 && laptop>0 && watch==0){
          mobilePrice= mobile*100;
-        //  1 laptop= 500$
+        //  1 laptop price= 500$
          laptopPrice=laptop*500;
          totalPrice=laptopPrice+mobilePrice;
     }
@@ -43,7 +43,7 @@ function budgetClaculator(mobile,laptop,watch){
     else{
          mobilePrice=mobile*100;
          laptopPrice=laptop*500;
-        //  1 watch=50$
+        //  1 watch price=50$
          watchPrice= watch*50;
          totalPrice=laptopPrice+mobilePrice+watchPrice;
         
@@ -96,7 +96,6 @@ function hotelCost(days){
 //  find the largest name
 
 var friendsName = ["habib", "kim", "jimjimjim","jimjimjimn", "java", "kamal", "mohammod", "summmon", "abul"];
-
 function megaFriends(){
     var largestName= friendsName[0];
     for(var i=0; i < friendsName.length; i++ ){
@@ -108,8 +107,7 @@ function megaFriends(){
     }
     return largestName;
 }
-var result=megaFriends(friendsName);
-console.log(result);
+
 
 
 
